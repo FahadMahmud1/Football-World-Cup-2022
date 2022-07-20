@@ -127,12 +127,12 @@ button:hover:after {
 
 /* Button Section END */
 
-/*                           Section 02             */
+/*                                  Section 02             */
 .container-2 {
     width: 1321px;
     height: 790px;
     /* border: 1px solid rebeccapurple; */
-    margin-bottom: 40px;
+    margin-bottom: 130px;
     border-radius: 30px;
 }
 
@@ -188,16 +188,50 @@ button:hover:after {
 
 .container-3 {
     width: 312px;
-    height: 362px;
+    height: 242px;
     border: 1px solid #E8E8E8;
     border-radius: 10px;
-    color: rgba(22, 22, 22, 0.7);
+    text-align: center;
+}
+
+.container-3 p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #4D4D4D;
+
+
 }
 
 .container-3 img {
-    width: 312px;
-    height: 175px;
-    border-radius: 10px 10px 0px 0px;
+    width: 93.04px;
+    height: 56.18px;
+
+}
+
+.container-3 h2 {
+    padding-top: 4px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #161616;
+
+}
+
+.flag-set {
+    padding-top: 53px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #161616;
+
 }
 
 .screen {
@@ -215,15 +249,6 @@ button:hover:after {
 
 .screen p {
     margin: 0;
-}
-
-.container-3 h4 {
-    font-size: 18px;
-    line-height: 27px;
-    padding: 0px 0px 20px 20px;
-    margin: 0;
-
-    color: #161616;
 }
 
 /*fafadfafadf */
@@ -250,7 +275,6 @@ button:hover:after {
 }
 
 footer {
-    margin-top: 40px;
     width: 100%;
     height: 444px;
     background: #161616;
@@ -288,37 +312,6 @@ footer a {
     justify-content: center;
     gap: 30px;
 
-}
-
-.hidden {
-    width: 131px;
-    height: 47px;
-    left: 352px;
-    top: 1944.21px;
-    background: #DD0000;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.hidden a {
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
-    text-align: center;
-
-    color: #FFFFFF;
-
-
-}
-
-.flex-new {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .menu-box:hover {
