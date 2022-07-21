@@ -130,9 +130,9 @@ button:hover:after {
 /*                                  Section 02             */
 .container-2 {
     width: 1321px;
-    height: 790px;
+    height: 590px;
     /* border: 1px solid rebeccapurple; */
-    margin-bottom: 130px;
+    margin-bottom: 40px;
     border-radius: 30px;
 }
 
@@ -403,9 +403,7 @@ footer a {
         text-align: center;
         overflow: hidden;
         white-space: nowrap;
-        title Contrary to popular belief,
-        Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC,
-        making it over 2000 years old.
+
     }
 
     .div-1 {
@@ -424,6 +422,14 @@ footer a {
     .menu-box {
         border: 1px solid #E8E8E8;
         border-radius: 10px;
+        padding: 0 50px;
+    }
+
+    .menu-box a span {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
     }
 
     .side-menu {
@@ -446,11 +452,19 @@ footer a {
     footer {
         height: 100%;
         width: 100%;
+        padding-bottom: 20px;
     }
 
     .july {
         flex-direction: column;
         align-items: center;
+        flex-wrap: wrap;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 50px;
+        /* or 312% */
+
+        text-align: center;
 
     }
 
@@ -465,4 +479,204 @@ footer a {
 
 
 
+}
+
+@media only screen and (min-width:689px) and (max-width:992px) {
+
+    .container,
+    .container-2 {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .container-2 {
+        padding-bottom: 80px;
+    }
+
+    section {
+        padding-bottom: 20px;
+    }
+
+
+
+    .container {
+        width: 734px;
+        height: 398px;
+    }
+
+
+    .player {
+        margin-top: 78px;
+        width: 323px;
+        height: 340px;
+        margin-left: 17px;
+
+    }
+
+
+
+    .player img {
+        width: 323px;
+        height: 340px;
+
+    }
+
+    .i-title {
+        margin-left: 76px;
+        width: 316px;
+        height: 276px;
+
+    }
+
+    .t-text {
+        margin-right: 0;
+    }
+
+
+    .button {
+        margin-top: 0;
+
+    }
+
+    button {
+        margin-top: 0;
+
+    }
+
+    .i-title h1 {
+        margin-top: 61px;
+        width: 289px;
+        height: 150px;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+        color: #FFFFFF;
+
+    }
+
+    .i-title p {
+        width: 310px;
+        height: 48px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+
+    .paragraph1 {
+        text-overflow: ellipsis;
+        text-align: center;
+        overflow: hidden;
+        white-space: nowrap;
+        width: 310px;
+        height: 48px;
+
+    }
+
+    .div-1 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70px;
+    }
+
+    .box-1 {
+        background-color: transparent;
+
+
+    }
+
+    .menu-box {
+        border: 1px solid #E8E8E8;
+        border-radius: 10px;
+
+
+    }
+
+    .anchor,
+    .anchor-2 {
+        width: 200px;
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+    .side-menu {
+
+        display: flex;
+
+        justify-content: center;
+        align-items: center;
+        gap: 22px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+
+    .merge-flex {
+        flex-direction: column;
+
+
+    }
+
+    .container-2 {
+        margin-bottom: 0;
+    }
+
+    .group-data {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        gap: 20px;
+
+    }
+
+    footer {
+        height: 100%;
+        width: 100%;
+        /* padding-bottom: 200px; */
+    }
+
+    footer h2 {
+        margin-bottom: 60px;
+    }
+
+    .july {
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 50px;
+        text-align: center;
+        margin: 0 80px;
+
+    }
+
+    .social-icon {
+        padding-bottom: 100px;
+
+    }
+
+    .flex-new {
+        display: visible;
+    }
+
+    .social-icon a {
+        align-items: center;
+
+    }
+
+
+
+}
+
+
+@media only screen and (min-width:993px) and (max-width:1600px) {
+
+    .flex-new {
+        display: none;
+    }
 }
